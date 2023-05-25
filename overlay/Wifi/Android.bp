@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "WifiResZeus",
+    name: "WifiResMondrian",
     device_specific: true
 }

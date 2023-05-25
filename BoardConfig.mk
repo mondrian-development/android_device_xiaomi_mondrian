@@ -8,9 +8,9 @@
 include device/xiaomi/sm8450-common/BoardConfigCommon.mk
 
 # Inherit from the proprietary version
-include vendor/xiaomi/zeus/BoardConfigVendor.mk
+include vendor/xiaomi/mondrian/BoardConfigVendor.mk
 
-DEVICE_PATH := device/xiaomi/zeus
+DEVICE_PATH := device/xiaomi/mondrian
 
 # Screen density
 TARGET_SCREEN_DENSITY := 560

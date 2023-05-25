@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingsProviderResZeus",
+    name: "SettingsProviderResMondrian",
     device_specific: true
 }

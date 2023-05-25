@@ -8,15 +8,15 @@
 $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 
 # Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/zeus/zeus-vendor.mk)
+$(call inherit-product, vendor/xiaomi/mondrian/mondrian-vendor.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \
-    FrameworksResZeus \
-    SettingsProviderResZeus \
-    SettingsResZeus \
-    SystemUIResZeus \
-    WifiResZeus
+    FrameworksResMondrian \
+    SettingsProviderResMondrian \
+    SettingsResMondrian \
+    SystemUIResMondrian \
+    WifiResMondrian
 
 # Sensors
 PRODUCT_PACKAGES += \

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_zeus.mk
+    $(LOCAL_DIR)/lineage_mondrian.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_zeus-user \
-    lineage_zeus-userdebug \
-    lineage_zeus-eng
+    lineage_mondrian-user \
+    lineage_mondrian-userdebug \
+    lineage_mondrian-eng
